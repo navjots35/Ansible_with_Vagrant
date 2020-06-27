@@ -119,10 +119,10 @@ ansible -m yum -a "name=nano state=latest" worker
 ```
 
 `yum:` Module name.
+
 `-a:` Telling ansible that we're passing an argument.
-Yum package requires 2 things minimum.
-- name and state
-`name:` what package you want to install
+- Yum package requires 2 things minimum.
+`name:` what package you want to install.
 `state:` what version or state you want your package to be.
 
 That's it. Learn some more about from [Ansible Docs](https://docs.ansible.com/ansible/latest/index.html)
