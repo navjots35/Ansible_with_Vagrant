@@ -72,9 +72,9 @@ Type **vagrant** when prompted for a password hit enter and now your ssh-key sho
 
 # Let's run our first Ansible Command
 
-Ansible uses push configuration so target host does not require any angent to be installed like chef or puppet. 
+Ansible uses push configuration, so, target host does not require any agent to be installed like chef or puppet. 
 
-Ansible needs to know with whom it is interacting with. For this, ansible have something called Hosts or Inventory where it stores all the devices which it'll be interacting with.
+Ansible needs to know with whom it is interacting with. For this, ansible have something called **Hosts** or **Inventory** where it stores all the devices which it'll be interacting with.
 Ansible does need some kind of address, right? Yes, we've given a private ip address to our VM.
 
 Now, head over to Hosts file where it stores information about it's target hosts.
